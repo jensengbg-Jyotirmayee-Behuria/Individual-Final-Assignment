@@ -3,7 +3,7 @@
 }
 #contact {
   background:url(/Image/contact-img.jpg);
-  width: 100%;
+  max-width: 600px;
   margin: 10%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,7 +156,7 @@ form {
   margin-top: 50px;
 }
 .form-control{
-  width: 600px;
+  max-width: 600px;
   background: transparent;
   border:none;
   border-bottom: 1px solid white;
@@ -187,13 +187,7 @@ a:active {
   font-size: 50px;
   color: blue;
 }
-   
-
-  
-
-
-
- @media  only screen and (max-width: 500px) {
+@media  only screen and (max-width: 500px) {
     .wrapper {
       grid-template-columns: 100%;
       grid-template-areas: "header"
@@ -221,63 +215,6 @@ a:active {
   
 
 
-/*Contact Us Form 
 
-#contact  {
-  margin: 0;
-  padding:0;
-  text-align: center;
-  font-family: sans-serif;
-  background: url(/Image/contact-img.jpg);
-  background-size: cover;
-}
-.contact-title {
-  margin-top: 100px;
-  color:white;
-}
-.contact-title h1 {
-  font-size: 50px;
-  line-height: 10px;
-}
-.contact-title h2 {
-  font-size: 45px;
-
-}
-form {
-  margin-top: 50px;
-}
-.form-control{
-  width: 600px;
-  background: transparent;
-  border:none;
-  border-bottom: 1px solid white;
-  color:white;
-  font-size: 45px;
-  margin-bottom: 16px;
-  font-weight: bold;
-}
-input{
-  height: 45px;
-}
-form . submit{
-  background-color:  #ffa94d;
-  border-color: transparent;
-  color: #fff;
-  font-size: 30px;
-  letter-spacing: 2px;
-  font-weight: bold;
-  height: 50px;
-  margin-top: 20px;
-  transition: 0.4s;
-}
-form . submit:hover{
-  background-color: #4CAF50;
-  cursor: pointer;
-}
-a:active {
-  font-size: 50px;
-  color: blue;
-}
-   }*/
 
   
